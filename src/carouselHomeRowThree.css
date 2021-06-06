@@ -1,0 +1,10 @@
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+img.imgMargin {
+  padding: 0.2rem;
+  box-sizing: border-box;
+}

@@ -1,0 +1,94 @@
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: #173255;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 0;
+  z-index: 100;
+  position: sticky;
+}
+
+.logoImg {
+  box-sizing: border-box;
+  margin: 0 20px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.addTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.locationLogo {
+  margin-top: 8px;
+}
+
+.Address {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-right: 1rem;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+img.logoImg {
+  filter: invert(1);
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+span.header__optionLineTwo {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.header__optionBasket {
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.header__optionLineCount {
+  margin-right: 10px;
+  margin-left: 2px;
+}
